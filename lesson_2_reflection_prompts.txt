@@ -21,10 +21,24 @@ part of a subsequent git commit.
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+In creating experimental version or different versions of the app for a bug fix
+or new feature.
+
 How do the diagrams help you visualize the branch structure?
+
+You can see all the various commits that compose a specific branch.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+So that it is easier to see what was merged into a specific branch.
+The graph also shows the parent of a specific commit to help when performing
+a git diff.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+Automatic merging avoids the examination of simple additions of code that don't
+collide with other code segments in the merged module. Manual merge highlights
+areas where 2 branches impacted the same code segment, and therefore the changes
+need to be understood and manually resolved.
