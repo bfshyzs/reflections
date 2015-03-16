@@ -2,6 +2,7 @@ What happens when you initialize a repository? Why do you need to do it?
 
 git init will create an empty repository
 
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
@@ -12,11 +13,13 @@ and some that may not be.
 The staging area provides a means to group logically related files together for
 a single commit operation.
 
+
 How can you use the staging area to make sure you have one commit per logical
 change?
 
 Execute a git status to see what is in the current staging area; that would be
 part of a subsequent git commit.
+
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
@@ -24,21 +27,24 @@ organized? How would branches help?
 In creating experimental version or different versions of the app for a bug fix
 or new feature.
 
+
 How do the diagrams help you visualize the branch structure?
 
 You can see all the various commits that compose a specific branch.
 
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-So that it is easier to see what was merged into a specific branch.
-The graph also shows the parent of a specific commit to help when performing
-a git diff.
+The graph shows the parent of a specific commit that is useful when
+performing a git diff. It is helpful to see all the changes that were
+merged into a branch.
+
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
 
-Automatic merging avoids the examination of simple additions of code that don't
-collide with other code segments in the merged module. Manual merge highlights
-areas where 2 branches impacted the same code segment, and therefore the changes
-need to be understood and manually resolved.
+Where there are no content collisions between branches, automatic merging
+can save time and effort and allow the developer to focus on content
+where changes were made to the same content segment in multiple branches
+and manually resolve the merge collisions.
