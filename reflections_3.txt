@@ -10,3 +10,13 @@ automatically stay up-to-date with your remote repository?
 
 Pulling manually put the control in the hands of the user as to when the
 local repository is updated, and also, what branch to pull.
+
+
+Describe the differences between forks, clones, and branches. When would
+you use one instead of another?
+
+A git clone is a copy of a git repository.
+A git fork is a copy of a git repository that still maintains a relationship
+with the original repository.
+A branch is a separate line of changes for an artifact within a repository.
+These changes may be made for various reasons, defect fix, new enhancement, etc.
