@@ -20,3 +20,16 @@ A git fork is a copy of a git repository that still maintains a relationship
 with the original repository.
 A branch is a separate line of changes for an artifact within a repository.
 These changes may be made for various reasons, defect fix, new enhancement, etc.
+
+
+What is the benefit of having a copy of the last known state of the
+remote stored locally?
+
+The git pull keeps the local repo branch up to date with the remote repo.
+The git fetch command imports commits from a remote repository into your
+local repo. The resulting commits are stored as remote branches instead
+of the normal local branches. This gives
+you a chance to review changes before integrating them into your copy
+of the project.
+The advantage using either method is you have the latest copy of the
+remote before you begin to make changes.
