@@ -43,3 +43,11 @@ be using a single repo. I can envision a number of branches for each
 collaborator. Having a Git and GitHub allows all collaborators to make changes
 to a local repo, and only push the changes that are relevant to a shared
 repo.
+
+
+When would you want to make changes in a separate branch rather than directly
+in master? What benefits does each approach have?
+
+When the desire is to collaborate, make changes in a separate branch
+and then create a pull request to share with github and solicit feedback
+from collaborators.
