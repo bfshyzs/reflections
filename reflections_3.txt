@@ -33,3 +33,13 @@ you a chance to review changes before integrating them into your copy
 of the project.
 The advantage using either method is you have the latest copy of the
 remote before you begin to make changes.
+
+
+How would you collaborate without using Git or GitHub? What would be
+easier, and what would be harder?
+
+Without the combination of Git and GitHub, all collaborators would
+be using a single repo. I can envision a number of branches for each
+collaborator. Having a Git and GitHub allows all collaborators to make changes
+to a local repo, and only push the changes that are relevant to a shared
+repo.
